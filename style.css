@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-highlights{
     color: #f9004d;
 }
@@ -14,8 +17,11 @@ h1{
     width: 40%;
     float: left;
 }
-.half-width img{
-    margin-left: 55%;
+.frist-pic{
+    margin-left: 40%;
+}
+p{
+    color: dimgray;
 }
 .top-banner{
     background-image: url("img/top-banner.png");
@@ -32,4 +38,40 @@ section{
     background-image: linear-gradient(45deg,#f9004d, rgb(248, 79, 12));
     border-radius: 25px;
 
+}
+.dream{
+    height: 100%;
+}
+.big-dream{
+    align-items: center;
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.name-highlights-one{
+    color:rgb(248, 79, 12) ;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.experience{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#font-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato,yellow );
+    border-image-slice: 1;
+}
+#back-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, yellow, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
